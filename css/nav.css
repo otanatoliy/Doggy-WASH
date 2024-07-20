@@ -1,0 +1,34 @@
+/*nav*/
+.nav {
+    padding-top: 47px;
+    padding-bottom: 108px;
+}
+
+.nav__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: center;
+}
+
+.nav__logo {
+    text-align: center;
+}
+
+.nav__btn {
+    text-align: right;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--333333);
+}
+.nav-list__link:hover{
+    border:1px solid var(--333333);
+    padding: 0px 5px;
+}

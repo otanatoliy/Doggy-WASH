@@ -1,0 +1,33 @@
+.section-pane {
+    margin-bottom: 141px;
+}
+
+.paw-title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167%;
+    color: #000;
+}
+
+.paw-list {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #000;
+}
+.paw-list li{
+    position:relative;
+    padding-left: 30px;
+}
+.paw-list li::before{
+    content:"";
+    position:absolute;
+    left: 10px;
+    top: 10px;
+    width: 22px;
+    height: 22px;
+    translate:translate(-100%,0%);
+    background-image: url('./../svg/paw-bullet.svg');
+}

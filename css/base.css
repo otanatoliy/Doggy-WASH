@@ -1,0 +1,22 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-color:#F8F7F5;
+    /*padding-bottom: 600px;*/
+}
+.wrapper{
+    overflow: hidden;
+}
+/*container*/
+.container {
+    max-width: 1820px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container--small{
+    max-width: 1144px;
+}
+.none{
+    display:none !important;
+}
